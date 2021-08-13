@@ -12,7 +12,6 @@ const studentSchema = new Schema({
   },
   college_id: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: 'College',
   },
   skills: [
     {
